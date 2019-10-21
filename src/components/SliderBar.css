@@ -1,0 +1,36 @@
+.slider-text{
+   padding: 100px 0px;
+}
+.slider-text span{
+    font-size: 0.8em;
+    color: #7a7a7a;
+}
+.slider-text h1{
+    font-size: 3.5em;
+    margin: 30px 0px;
+    color:#2dd8e0;
+}
+
+.contact-btn{
+    background-color: none;
+    background-image: linear-gradient(to right, #16b3f8 , #2dd8e0);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0px 0px 5px #16b3f8;
+}
+.contact-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.slider-text p{
+    font-size: 1em;
+    margin: 30px 0px;
+    width: 350px;
+    color: #7a7a7a;
+}
+#contact-btn{
+    padding: 30px 10px;
+}

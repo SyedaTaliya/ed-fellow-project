@@ -1,0 +1,15 @@
+.business-card{
+    width: 180px;
+    height: 140px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #7c7c7c;
+    border-radius: 5px;
+    margin: 30px;
+    color: white;
+}
+.business-card p{
+    margin-top: 50px;
+}

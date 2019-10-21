@@ -1,22 +1,87 @@
 .App {
-  text-align: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.slider-main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.slider-main > div{
+  width: 40%;
+}
+.background-placeholder{
+  background-image: url(./components/images/background-image.png);
+  height: 500px;
+  background-size: 85%;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #09d3ac;
+
+@media (max-width: 800px){
+ 
+  .slider-main > div{
+    width: 95%;
+  }   
+}
+
+
+.logo-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-section{
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+#down-card{
+  margin-top: 100px;
+}
+#up-card{
+  margin-top: -80px;
+}
+
+/*  */
+
+.business-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.business-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 100px 0px;
+}
+#green{
+  background-color: #5fd57f;
+}
+#purple{
+  background-color: #9e5dc1;
+}
+#pink{
+  background-color: #ee7598;
+}
+#orange{
+  background-color: #fbad58;
 }

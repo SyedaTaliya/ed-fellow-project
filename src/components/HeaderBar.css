@@ -1,0 +1,52 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+.logo-div img{
+    width: 100px;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+li a{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 0.9em;
+}
+.contact-btn{
+    background-color: none;
+    background-image: linear-gradient(to right, #16b3f8 , #2dd8e0);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0px 0px 5px #16b3f8;
+}
+.contact-btn a{
+    color: white;
+    text-decoration: none;
+}
+.menubar-icon{
+    display: none;
+    color: black;
+    font-size: 2em;
+}
+
+
+@media (max-width: 800px){
+    .menu-list{
+        display: none;
+    }
+    
+    .menubar-icon{
+        display: inline;
+    }
+}
